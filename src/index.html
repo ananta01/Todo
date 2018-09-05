@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="todo">My Todo ＞</h1>
+        <div class="todo-content">
+            <div class="add-task">
+                <input type="text" class="add-task-text" placeholder="请输入您的内容" autofocus autocomplete="off">
+                <span class="btn-submit">提交</span>
+            </div>
+            <ul class="task-list"></ul>
+            <div class="task-desc-modal" style="display: none">
+                <span class="task-desc-close">×</span>
+                <h2 class="task-desc-title"></h2>
+                <div class="desc-content">
+                    <textarea class="desc-textarea"></textarea>
+                </div>
+                <div class="remind">
+                    <input type="date" class="remind-date">
+                </div>
+                <div class="task-desc-ok">保 存</div>
+            </div>
+            <div class="task-desc-shade" style="display: none"></div>
+        </div>
+    </div>
+</body>
+</html>
